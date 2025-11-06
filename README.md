@@ -64,45 +64,41 @@ Bash
 
 # Create and activate a virtual environment:
 
-Bash 
+**For Linux/macOS**
 
-# For Linux/macOS
+- python3 -m venv venv
 
-python3 -m venv venv
+- source venv/bin/activate
 
-source venv/bin/activate
+**For Windows (Command Prompt)**
 
-# For Windows (Command Prompt)
+- python -m venv venv
 
-python -m venv venv
+- venv\Scripts\activate
 
-venv\Scripts\activate
-
-
-# Apply database migrations:
+**Apply database migrations**:
 
 Bash
 
-python manage.py makemigrations
+- python manage.py makemigrations
 
-python manage.py migrate
+- python manage.py migrate
 
-Create a superuser (admin account):
+- Create a superuser (admin account):
 
-Bash 
+- python manage.py createsuperuser
 
-python manage.py createsuperuser
-
-Follow the prompts to set up your username and password for the admin panel.
+- Follow the prompts to set up your username and password for the admin panel.
 
 ---
 
 💻 Usage
 
-To run the application locally, execute the following command:
+To run the application locally, execute the following command
 
-Bash
+Bash 
 
-python manage.py runserver
+- python manage.py runserver
 
 ---
+
