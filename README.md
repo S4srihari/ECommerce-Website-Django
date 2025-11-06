@@ -13,32 +13,32 @@ Frontend: HTML, CSS, JavaScript
 
 ---
 
-✨ **Key Features**
+## ✨ Key Features
 
 The application is designed to handle core e-commerce functionalities for both
 customers and administrators: Customer-Facing Features
 
-User Authentication: Secure registration, login, and logout functionality.
+**User Authentication**: Secure registration, login, and logout functionality.
 
-Product Catalog: Browse a comprehensive list of products with detailed product pages.
+**Product Catalog**: Browse a comprehensive list of products with detailed product pages.
 
-Shopping Cart: Add, update, and remove items from the shopping cart before checkout.
+**Shopping Cart**: Add, update, and remove items from the shopping cart before checkout.
 
-Order Placement: A streamlined checkout process for completing purchases.
+**Order Placement**: A streamlined checkout process for completing purchases.
 
-User Profile: View and manage personal information and order history.
+**User Profile**: View and manage personal information and order history.
 
-**Administrator Features**
+## Administrator Features
 
-Admin Dashboard: Utilize the powerful Django 
+**Admin Dashboard**: Utilize the powerful Django 
 
-Admin interface to manage the site.
+**Admin interface**: to manage the site.
 
-Product Management: Create, edit, and delete product listings, including images and inventory.
+**Product Management**: Create, edit, and delete product listings, including images and inventory.
 
-User Management: Oversee and manage customer accounts.
+**User Management**: Oversee and manage customer accounts.
 
-Order Tracking: View and update the status of incoming orders.
+**Order Tracking**: View and update the status of incoming orders.
 
 ---
 
@@ -48,23 +48,25 @@ Prerequisites - You will need Python installed on your system.
 
 use a virtual environment.
 
-Bash # Check if python is installed
+Bash
 
-python --version
+- python --version
 
-Installation
+## Installation
 
-Clone the repository:
+# Clone the repository:
 
 Bash 
 
-git clone https://github.com/S4srihari/ECommerce-Website-Django.git
+- git clone https://github.com/S4srihari/ECommerce-Website-Django.git
 
-cd ECommerce-Website-Django
+- cd ECommerce-Website-Django
 
-Create and activate a virtual environment:
+# Create and activate a virtual environment:
 
-Bash # For Linux/macOS
+Bash 
+
+# For Linux/macOS
 
 python3 -m venv venv
 
@@ -76,15 +78,20 @@ python -m venv venv
 
 venv\Scripts\activate
 
-Apply database migrations:
 
-Bash python manage.py makemigrations
+# Apply database migrations:
+
+Bash
+
+python manage.py makemigrations
 
 python manage.py migrate
 
 Create a superuser (admin account):
 
-Bash python manage.py createsuperuser
+Bash 
+
+python manage.py createsuperuser
 
 Follow the prompts to set up your username and password for the admin panel.
 
@@ -98,16 +105,4 @@ Bash
 
 python manage.py runserver
 
-The application will now be running at:
-
-Website: http://127.0.0.1:8000/
-
-Admin Panel: http://127.0.0.1:8000/admin/
-
-Use the superuser credentials you created to log in to the admin panel and start adding products!
-
 ---
-Feel free to Fork/clone/Star the repo.
-
-
-
