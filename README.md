@@ -6,7 +6,9 @@ This project provides a fully functional online shopping experience, including u
 **Technologies Used**: This project is built using a modern stack, focusing on Python for the backend and standard web technologies for the frontend.
  
 Backend Framework: Python, Django
+
 Database: SQLite
+
 Frontend: HTML, CSS, JavaScript
 
 ---
@@ -64,4 +66,5 @@ Use the superuser credentials you created to log in to the admin panel and start
 
 ---
 Feel free to Fork/clone/Star the repo.
+
 
